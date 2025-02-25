@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="Todolist.css">
+    <link rel="icon" href="https://www.icolorpalette.com/download/solidcolorimage/02ccfe_solid_color_background_icolorpalette.png" type="image/png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="home">
+        <div class="container-main">
+            <div class="container-left" id="containerLeft">
+                <div class="dots">
+                    <div id="d1"></div>
+                    <div id="d2"></div>
+                    <div id="d3"></div>
+                </div>
+                <div class="profile center top">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQHAkJSIJ1Yc3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721282386615?e=1744243200&v=beta&t=q6F8UkG8Ru1UtNgEjWPSvSPASORKRaDMd9yyZKJdUcI" alt="">
+                    <div>
+                        <p class="name" id="name">Rajendra Prasad</p>
+                        <p class="todo" id="todo" style="color: yellow; font-size:larger;">Todolist</p>
+                    </div>
+                </div>
+                <div class="menu center">
+                    <div class="search-holder">
+                        <input type="search" name="search" id="search" placeholder="Search">
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li id="o1"><a href="#"><i class='bx bx-sun' id="i1"></i><span>My Day</span></a></li>
+                            <li id="o2"><a href="#"><i class='bx bx-check-circle' id="i2"></i><span>Completed Tasks</span></a></li>
+                            <li id="o3"><a href="#"><i class='bx bx-x-circle' id="i3"></i><span>Not Completed Tasks</span></a></li>
+                            <li id="o4"><a href="#"><i class='bx bx-extension' id="i4"></i><span>All Tasks</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-right">
+                <video autoplay muted loop class="background-video">
+                    <source src="Aerial view of sand beach. Top view sea waves. Drone footage.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="hamburger-container">
+                    <div class="burger" id="burgerIcon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="container-sub center">
+                    <div class="header">
+                        <h2 id="header_title">No tasks</h2>
+                        <div class="buttons">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="card-holder" id="TaskContainer">
+                    </div>
+                    <div class="add-new">
+                        <div class="card-new align">
+                            <div class="group1">
+                                <div style="width: 70%;">
+                                    <i class='bx bx-plus'></i>
+                                    <input type="text" name="task" id="taskInput" placeholder="Add a task" required>
+                                </div>
+                                <div>
+                                    <input type="date" name="date" id="duedate" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
