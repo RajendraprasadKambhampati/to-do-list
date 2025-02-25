@@ -45,4 +45,4 @@ This is a simple and interactive To-Do List web application that allows users to
 If you find this project helpful or interesting, please consider **starring** 🌟 it on GitHub!  
 
 ## Author
-**Rajendra Prasad**
+**Rajendra Prasad Kambhampati**
