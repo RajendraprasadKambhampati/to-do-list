@@ -1,6 +1,6 @@
 # 🌟 To-Do List Application
 
-![GitHub stars](https://github.com/RajendraprasadKambhampati/to-do-list)
+![GitHub stars](https://github.com/RajendraprasadKambhampati/to-do-list/tree/main/Todolist%20code)
 
 ## Overview
 This is a simple and interactive To-Do List web application that allows users to add, manage, and track their tasks. Users can categorize tasks into different sections such as **My Day**, **Completed Tasks**, **Not Completed Tasks**, and **All Tasks**.
@@ -47,7 +47,7 @@ This is a simple and interactive To-Do List web application that allows users to
 ## ⭐ Star This Project
 If you find this project helpful or interesting, please consider **starring** 🌟 it on GitHub!  
 
-[![Star this repo](https://github.com/RajendraprasadKambhampati/to-do-list)
+[![Star this repo](https://github.com/RajendraprasadKambhampati/to-do-list/tree/main/Todolist%20code)
 
 ## Author
 **Rajendra Prasad**
